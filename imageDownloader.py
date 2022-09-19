@@ -1,11 +1,6 @@
 import os
 import shutil
 
-def login():
-    """
-    will login to a certain username and password
-    """
-
 def downloadImage(SHORTCODE, folderName=None):
     """
     Will download the given image to the given folder name
