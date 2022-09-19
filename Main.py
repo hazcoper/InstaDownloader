@@ -1,11 +1,16 @@
-#Standard libraries
+# Standard imports
 import sys
 import os
 import time
-import imageDownloader
-import telegram
 import requests
 import re
+
+# Non standard imports
+import telegram
+
+# Local imports
+import imageDownloader import cleanCache, downloadImage
+from telegramFunc import receive_bot_message, telegram_bot_sendtext, send_photo
 
 lastMessage = 119801179        #Used to check if  the message received hasent been read already
 responseList = []  # append and remove from the top. Will contain the userIds  to respond to
