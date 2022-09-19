@@ -9,7 +9,7 @@ import re
 import telegram
 
 # Local imports
-import imageDownloader import cleanCache, downloadImage
+from imageDownloader import cleanCache, downloadImage
 from telegramFunc import receive_bot_message, telegram_bot_sendtext, send_photo
 
 lastMessage = 119801179        #Used to check if  the message received hasent been read already
