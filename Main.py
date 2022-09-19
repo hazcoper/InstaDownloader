@@ -102,7 +102,7 @@ if __name__ == '__main__':
 
 
             except Exception as e:
-                telegram_bot_sendtext("Command has failed...", userID)
+                telegram_bot_sendtext("Command has failed... (if the account is private you need to login)", userID)
                 print("This was the error ", e)
     
 
