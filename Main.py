@@ -17,6 +17,9 @@ userID = None
 # Function to validate URL
 # using regular expression
 def isValidURL(str):
+    """
+    Validate that a given string is a url using regex
+    """
  
     # Regex to check valid URL
     regex = ("((http|https)://)(www.)?" +
