@@ -13,6 +13,8 @@ def downloadImage(SHORTCODE, folderName=None):
 
     os.system(f"instaloader -l hazprinter --dirname-pattern output -- -{SHORTCODE}")
 
+
+
 def cleanCache():
     folderList = [x for x in os.listdir() if x == "output"]
     
