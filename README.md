@@ -12,13 +12,13 @@ A fast and simple option to download instagram posts
 # Usage
 
 ## login
-  It is not necessary for you to login with your account, however, if you desire to download images from a private account, you must login (and the login account should follow the account with the desired photo)
-  in order to login run the following command in the terminal
-  ´´´
-  instaloader --login YOUR_USERNAME
-  ´´´
-  aftre pressing enter it will ask for the password. Instaloader will then cache the username and password, meaning that only need to login once.
-  for more options refer to instaloader documentation
+It is not necessary for you to login with your account, however, if you desire to download images from a private account, you must login (and the login account should follow the account with the desired photo)
+in order to login run the following command in the terminal
+´´´
+instaloader --login YOUR_USERNAME
+´´´
+aftre pressing enter it will ask for the password. Instaloader will then cache the username and password, meaning that only need to login once.
+for more options refer to instaloader documentation
 
 After dealing with the login, installing everything and creating your bot, using the project is really easy.
 run the program using the following command:
