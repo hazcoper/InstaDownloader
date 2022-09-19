@@ -19,4 +19,8 @@ A fast and simple option to download instagram posts
     - make install instructions
       - needs to include the making of the bot
     - test the code
+    - support multiple users
+
+# Known limitations
+    - all the text after a # in the description will not be sent
 
