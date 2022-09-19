@@ -20,13 +20,3 @@ def cleanCache():
         # os.rmdir(folder)
         shutil.rmtree(folder)
 
-# downloadImage(
-#     "Cg52QVbsypo"
-# )
-
-
-/afs/.ist.utl.pt/users/8/4/ist196884/.local/bin/instaloader  --login newAgainPt --dirname-pattern output -- -Cg4bQEWLwUt
-
-
-instaloader
-

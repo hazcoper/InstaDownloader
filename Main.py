@@ -68,6 +68,9 @@ def receive_bot_message():
     response = response.json()
 
     response = response['result']   #go to the result part of the dictionary
+    if len(response) == 0:
+        # means that I have not received a message in a long time
+        return False
     response = response[-1]         #go to the last sent message
 
     currentMessage = response['update_id']  #get the message code to check if we are not repeating messages
@@ -119,6 +122,7 @@ while True:
     mss = receive_bot_message()     #Grab the first message
     while mss == False:             #Wait for new messages to come in
         mss = receive_bot_message()
+        time.sleep(0.5)
 
     print("I have received this message: ", mss)
 
