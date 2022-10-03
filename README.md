@@ -34,17 +34,23 @@ After pressing enter it will ask for the password. Instaloader will then cache t
 
 # Install
 
+
 # Create bot
 
 # To do
 
-    - separate code
     - see if it works with stories
-    - make usage instructiosn
     - make install instructions
       - needs to include the making of the bot
     - test the code
     - support multiple users
+
+# Done
+    - separate code
+    - make usage instructions
+    - create the requirements file
+    - 
+
 
 # Known limitations
     - all the text after a # in the description will not be sent
