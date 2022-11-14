@@ -53,7 +53,8 @@ After that follow the usage instructions
     - test the code
     - support multiple users
       - have a way to identify them and each could have different permissiosn
-
+    - add ota
+    - add ability to reboot the program
 # Done
     - separate code
     - make usage instructions
